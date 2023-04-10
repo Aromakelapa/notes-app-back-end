@@ -1,0 +1,21 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.1",
+    "nanoid": "^3.3.6"
+  }
+}
