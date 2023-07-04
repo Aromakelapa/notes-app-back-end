@@ -12,10 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "@hapi/hapi": "^21.3.1",
-    "nanoid": "^3.3.6"
+    "@hapi/hapi": "^20.1.0",
+    "nanoid": "^3.1.20"
   }
 }
